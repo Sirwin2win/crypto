@@ -1,0 +1,43 @@
+.tu{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pic{
+    height: 50px;
+    width: 50;
+    border-radius: 50%;
+}
+.men{
+    background-color: rgb(58, 58, 240);
+}
+.sideborder{
+    border-right-style: solid;
+    
+}
+.dashgrid{
+    height: 100px;
+}
+.bgImg{
+    background-image: url('../assets/images/bg4.jpg');
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainfont{
+    font-family: cursive, Times, serif; font-style: italic;
+    font-size: xx-large;
+}
+.subfont{
+    font-family: chiller;
+    font-size: xx-large;
+}
+.shiftLogo{
+    margin-left: 280px;
+}
+@media only screen and (max-width: 600px) {
+    .shiftLogo {
+      margin-left: 50px;
+    }
+  }
