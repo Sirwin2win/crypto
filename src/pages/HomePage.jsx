@@ -2,7 +2,7 @@ import "../components/Styles.css";
 
 const HomePage = () => {
   return (
-    <div className="container bgImg">
+    <div className="container bgImg homeGood">
       <div className="row">
         <div className="col text-white mt-5">
           <b className="mainfont">
