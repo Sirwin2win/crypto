@@ -32,6 +32,11 @@ const Navi = () => {
               </Link>
             </Nav.Link>
             <Nav.Link>
+              <Link className="tu" to={"/register"}>
+                Register
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
               <Link className="tu" to={"/dashboard"}>
                 Dashboard
               </Link>

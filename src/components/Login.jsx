@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/images/bg7.jpg";
 import logo1 from "../assets/images/btc3.avif";
+// import MenuComp from "./MenuComp";
+import Button from "./Button";
 const Header = () => {
   return (
     <div className="w-50 mx-auto mt-5 container">
@@ -50,6 +52,7 @@ const Header = () => {
         </div>
         <input type="submit" className="form-control btn btn-primary" />
       </form>
+      <Button />
     </div>
   );
 };

@@ -6,6 +6,8 @@ import logo from "../assets/images/wall.jpg";
 import { Link } from "react-router-dom";
 import "./Styles.css";
 import { IoCall } from "react-icons/io5";
+import { DatePicker } from "antd";
+
 const Header = () => {
   return (
     <div>
@@ -90,6 +92,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      <DatePicker />;
     </div>
   );
 };
